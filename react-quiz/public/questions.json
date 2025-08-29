@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "question": "What does useState return?",
+    "options": [
+      "A state value and a setter function",
+      "A reducer and a dispatch function",
+      "A ref object",
+      "A context provider"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 2,
+    "question": "Which is the correct way to pass data from parent to child?",
+    "options": [
+      "Via props",
+      "Via state",
+      "By mutating the child",
+      "By calling setState on the child"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 3,
+    "question": "Why is a `key` prop required when rendering lists?",
+    "options": [
+      "To help React identify items and minimize re-renders",
+      "To style list items",
+      "To make items clickable",
+      "To sort the list automatically"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 4,
+    "question": "When does `useEffect` without cleanup run (with a correct dependency array)?",
+    "options": [
+      "After the component renders to the DOM",
+      "Before the component renders",
+      "During render",
+      "Only on the server"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 5,
+    "question": "What does 'lifting state up' mean?",
+    "options": [
+      "Moving shared state to the closest common ancestor",
+      "Passing refs down to children",
+      "Caching values with useMemo",
+      "Using global variables"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 6,
+    "question": "What is a controlled form component?",
+    "options": [
+      "An input whose value comes from React state",
+      "An input that manages its own state",
+      "Any input wrapped in a form tag",
+      "An input using inline styles"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 7,
+    "question": "What is the difference between `useMemo` and `useCallback`?",
+    "options": [
+      "useMemo memoizes a value, useCallback memoizes a function",
+      "Both memoize functions",
+      "Both memoize values",
+      "They are identical hooks"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 8,
+    "question": "Which action always triggers a re-render?",
+    "options": [
+      "Calling the state setter with a new value",
+      "Mutating a local variable",
+      "Calling console.log",
+      "Reading props in a child"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 9,
+    "question": "What does an empty dependency array `[]` in `useEffect` mean?",
+    "options": [
+      "Run only once after mount",
+      "Run before every render",
+      "Never run",
+      "Run on every render"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 10,
+    "question": "When should you use React Context?",
+    "options": [
+      "To pass data deeply without prop drilling",
+      "To replace all local state",
+      "To optimize bundle size",
+      "To fetch data"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 11,
+    "question": "Why use a reducer with `useReducer`?",
+    "options": [
+      "To centralize and make state transitions predictable",
+      "To avoid writing any actions",
+      "Because useState is deprecated",
+      "To fetch data automatically"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 12,
+    "question": "What does `<React.StrictMode>` do?",
+    "options": [
+      "Highlights potential problems by invoking extra checks in development",
+      "Optimizes production builds",
+      "Enables server-side rendering",
+      "Disables warnings"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 13,
+    "question": "How do you update state based on the previous state value?",
+    "options": [
+      "Pass a function to the state setter",
+      "Mutate the state object",
+      "Use a global variable",
+      "Call setTimeout"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 14,
+    "question": "What should the `key` prop be in a list?",
+    "options": [
+      "A stable, unique identifier among siblings",
+      "The array index always",
+      "A random value each render",
+      "The component name"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "id": 15,
+    "question": "What does `React.memo` help with?",
+    "options": [
+      "Prevents re-render if props haven’t changed",
+      "Creates a global cache",
+      "Runs effects less often",
+      "Avoids bundle splitting"
+    ],
+    "correctOption": 0,
+    "points": 10
+  }
+]
