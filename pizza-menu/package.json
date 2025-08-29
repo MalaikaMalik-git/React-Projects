@@ -35,6 +35,8 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "react-scripts": "^5.0.1"
-  }
+  },
+  "homepage": "'https://MalaikaMalik-git.github.io/React-Projects/pizza-menu'"
 }
